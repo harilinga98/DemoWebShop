@@ -1,3 +1,4 @@
+
 package WebShop;
 
 import org.openqa.selenium.By;
@@ -26,7 +27,7 @@ public class Register {
 	     WebElement Lastname = driver.findElement(By.name("LastName"));
 	      		Lastname.sendKeys("Lingapalem");
 	      WebElement Email=driver.findElement(By.id("Email"));
-	      		Email.sendKeys("haripriya24@gmail.com");
+	      		Email.sendKeys("haripriya25@gmail.com");
 	      WebElement Password=driver.findElement(By.id("Password"));
 	      		Password.sendKeys("Amma123");	
 	      WebElement ConfirmPassword=driver.findElement(By.name("ConfirmPassword"));
@@ -41,9 +42,8 @@ public class Register {
 	      driver.findElement(By.name("Email")).sendKeys("haripriya12@gmail.com");
 	      driver.findElement(By.name("Password")).sendKeys("Amma123");
 	      driver.findElement(By.name("RememberMe")).click();
-	      driver.findElement(By.className("button-1 login-button")).click();
-	      
-	      
+	      //driver.findElement(By.className("button-1 login-button")).click();
+	      driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[5]/input")).click();
 	      
 	      
 		
